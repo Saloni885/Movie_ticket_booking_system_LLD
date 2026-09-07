@@ -1,0 +1,8 @@
+S: single responsibility principle
+//Each class has one responsibility here
+//Payment class handles payment,TicketPrinter prints ticket and like other classes too.
+O: open/closed principle
+//The Payment class is open for extension but closed for modification.
+//like we can add netbanking too like upi,cards....
+L: liskov substitution principle
+//Derived classes (UpiPayment, CardPayment, CashPayment) can be used interchangeably
